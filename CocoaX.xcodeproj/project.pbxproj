@@ -46,10 +46,18 @@
 		A07387F82105774A00B8B338 /* CocoaX */ = {
 			isa = PBXGroup;
 			children = (
+				A0738801210578CE00B8B338 /* New Group */,
 				A07387F92105774A00B8B338 /* CocoaX.h */,
 				A07387FA2105774A00B8B338 /* Info.plist */,
 			);
 			path = CocoaX;
+			sourceTree = "<group>";
+		};
+		A0738801210578CE00B8B338 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
