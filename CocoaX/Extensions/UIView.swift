@@ -1,12 +1,12 @@
 import UIKit
 
-extension UIView {
+public extension UIView {
     
     //Enums
     /**
      Defines the possible **Default Shadow** configurations
      */
-    enum DefaultShadow {
+    public enum DefaultShadow {
         case ultraThin
         case thin
         case normal

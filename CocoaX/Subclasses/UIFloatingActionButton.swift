@@ -1,31 +1,31 @@
 import UIKit
 
 @IBDesignable
-class UIFloatingActionButton: UIButton {
+public class UIFloatingActionButton: UIButton {
     
-    override init(frame: CGRect) {
+    override public init(frame: CGRect) {
         isMini = false
         super.init(frame: frame)
     }
     
-    required init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         isMini = false
         super.init(coder: aDecoder)
     }
     
     @IBInspectable
-    var isMini: Bool {
+    public var isMini: Bool {
         didSet {
             setNeedsDisplay()
         }
     }
     
-    override var intrinsicContentSize: CGSize {
+    override public var intrinsicContentSize: CGSize {
         let size = !isMini ? 56 : 40
         return CGSize(width: size, height: size)
     }
     
-    override func draw(_ rect: CGRect) {
+    override public func draw(_ rect: CGRect) {
         invalidateIntrinsicContentSize()
         layer.backgroundColor = UIColor.red.cgColor
         layer.cornerRadius = frame.height / 2

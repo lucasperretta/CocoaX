@@ -1,31 +1,31 @@
 import UIKit
 
 @IBDesignable
-class UIShadowView: UIView {
+public class UIShadowView: UIView {
     
     @IBInspectable
-    var shadowColor: UIColor = UIColor.black {
+    public var shadowColor: UIColor = UIColor.black {
         didSet {
             applyShadowFromValues()
         }
     }
     
     @IBInspectable
-    var shadowOpacity: Float = 0.4 {
+    public var shadowOpacity: Float = 0.4 {
         didSet {
             applyShadowFromValues()
         }
     }
     
     @IBInspectable
-    var shadowRadius: CGFloat = 6 {
+    public var shadowRadius: CGFloat = 6 {
         didSet {
             applyShadowFromValues()
         }
     }
     
     @IBInspectable
-    var shadowOffset: CGSize = CGSize(width: 0, height: 0) {
+    public var shadowOffset: CGSize = CGSize(width: 0, height: 0) {
         didSet {
             applyShadowFromValues()
         }

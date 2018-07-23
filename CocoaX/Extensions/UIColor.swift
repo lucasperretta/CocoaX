@@ -1,6 +1,6 @@
  import UIKit
  
- extension UIColor {
+ public extension UIColor {
     
     /**
      The Color's Red RGB Value

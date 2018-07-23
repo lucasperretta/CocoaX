@@ -1,6 +1,6 @@
 import UIKit
 
-protocol Theme {
+public protocol Theme {
     /**
      Represents the background color of your theme
      */

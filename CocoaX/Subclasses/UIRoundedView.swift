@@ -1,10 +1,10 @@
 import UIKit
 
 @IBDesignable
-class UIRoundedView: UIView {
+public class UIRoundedView: UIView {
     
     @IBInspectable
-    var cornerRadius: CGFloat = 0 {
+    public var cornerRadius: CGFloat = 0 {
         didSet {
             applyRadius(cornerRadius)
         }

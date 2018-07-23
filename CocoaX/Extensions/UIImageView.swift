@@ -1,6 +1,6 @@
 import UIKit
 
-extension UIImage {
+public extension UIImage {
     
     /**
      Creates a UIImage from a solid color
