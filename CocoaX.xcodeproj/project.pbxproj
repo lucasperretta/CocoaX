@@ -8,20 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		A07387FB2105774A00B8B338 /* CocoaX.h in Headers */ = {isa = PBXBuildFile; fileRef = A07387F92105774A00B8B338 /* CocoaX.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A07388062105799700B8B338 /* Subclasses in Resources */ = {isa = PBXBuildFile; fileRef = A07388022105799700B8B338 /* Subclasses */; };
-		A07388072105799700B8B338 /* Extensions in Resources */ = {isa = PBXBuildFile; fileRef = A07388032105799700B8B338 /* Extensions */; };
-		A07388082105799700B8B338 /* Classes in Resources */ = {isa = PBXBuildFile; fileRef = A07388042105799700B8B338 /* Classes */; };
-		A07388092105799700B8B338 /* Protocols in Resources */ = {isa = PBXBuildFile; fileRef = A07388052105799700B8B338 /* Protocols */; };
+		A073880D210579D500B8B338 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A073880A210579D400B8B338 /* UIColor.swift */; };
+		A073880E210579D500B8B338 /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A073880B210579D400B8B338 /* UIImageView.swift */; };
+		A073880F210579D500B8B338 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A073880C210579D500B8B338 /* UIView.swift */; };
+		A0738811210579D800B8B338 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0738810210579D800B8B338 /* Theme.swift */; };
+		A0738815210579DC00B8B338 /* UIRoundedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0738812210579DC00B8B338 /* UIRoundedView.swift */; };
+		A0738816210579DC00B8B338 /* UIShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0738813210579DC00B8B338 /* UIShadowView.swift */; };
+		A0738817210579DC00B8B338 /* UIFloatingActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0738814210579DC00B8B338 /* UIFloatingActionButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A07387F62105774A00B8B338 /* CocoaX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CocoaX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A07387F92105774A00B8B338 /* CocoaX.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CocoaX.h; sourceTree = "<group>"; };
 		A07387FA2105774A00B8B338 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A07388022105799700B8B338 /* Subclasses */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Subclasses; sourceTree = "<group>"; };
-		A07388032105799700B8B338 /* Extensions */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Extensions; sourceTree = "<group>"; };
-		A07388042105799700B8B338 /* Classes */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Classes; sourceTree = "<group>"; };
-		A07388052105799700B8B338 /* Protocols */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Protocols; sourceTree = "<group>"; };
+		A073880A210579D400B8B338 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		A073880B210579D400B8B338 /* UIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
+		A073880C210579D500B8B338 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		A0738810210579D800B8B338 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		A0738812210579DC00B8B338 /* UIRoundedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIRoundedView.swift; sourceTree = "<group>"; };
+		A0738813210579DC00B8B338 /* UIShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIShadowView.swift; sourceTree = "<group>"; };
+		A0738814210579DC00B8B338 /* UIFloatingActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIFloatingActionButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +60,49 @@
 		A07387F82105774A00B8B338 /* CocoaX */ = {
 			isa = PBXGroup;
 			children = (
-				A07388042105799700B8B338 /* Classes */,
-				A07388032105799700B8B338 /* Extensions */,
-				A07388052105799700B8B338 /* Protocols */,
-				A07388022105799700B8B338 /* Subclasses */,
+				A073881B210579FC00B8B338 /* Protocols */,
+				A0738818210579E500B8B338 /* Classes */,
+				A0738819210579ED00B8B338 /* Subclasses */,
+				A073881A210579F400B8B338 /* Extensions */,
 				A07387F92105774A00B8B338 /* CocoaX.h */,
 				A07387FA2105774A00B8B338 /* Info.plist */,
 			);
 			path = CocoaX;
+			sourceTree = "<group>";
+		};
+		A0738818210579E500B8B338 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		A0738819210579ED00B8B338 /* Subclasses */ = {
+			isa = PBXGroup;
+			children = (
+				A0738814210579DC00B8B338 /* UIFloatingActionButton.swift */,
+				A0738812210579DC00B8B338 /* UIRoundedView.swift */,
+				A0738813210579DC00B8B338 /* UIShadowView.swift */,
+			);
+			path = Subclasses;
+			sourceTree = "<group>";
+		};
+		A073881A210579F400B8B338 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A073880C210579D500B8B338 /* UIView.swift */,
+				A073880A210579D400B8B338 /* UIColor.swift */,
+				A073880B210579D400B8B338 /* UIImageView.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A073881B210579FC00B8B338 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				A0738810210579D800B8B338 /* Theme.swift */,
+			);
+			path = Protocols;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,10 +173,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A07388082105799700B8B338 /* Classes in Resources */,
-				A07388072105799700B8B338 /* Extensions in Resources */,
-				A07388092105799700B8B338 /* Protocols in Resources */,
-				A07388062105799700B8B338 /* Subclasses in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,6 +183,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A073880E210579D500B8B338 /* UIImageView.swift in Sources */,
+				A0738815210579DC00B8B338 /* UIRoundedView.swift in Sources */,
+				A0738811210579D800B8B338 /* Theme.swift in Sources */,
+				A073880F210579D500B8B338 /* UIView.swift in Sources */,
+				A0738817210579DC00B8B338 /* UIFloatingActionButton.swift in Sources */,
+				A0738816210579DC00B8B338 /* UIShadowView.swift in Sources */,
+				A073880D210579D500B8B338 /* UIColor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
