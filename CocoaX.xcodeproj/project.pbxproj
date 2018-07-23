@@ -8,12 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		A07387FB2105774A00B8B338 /* CocoaX.h in Headers */ = {isa = PBXBuildFile; fileRef = A07387F92105774A00B8B338 /* CocoaX.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A07388062105799700B8B338 /* Subclasses in Resources */ = {isa = PBXBuildFile; fileRef = A07388022105799700B8B338 /* Subclasses */; };
+		A07388072105799700B8B338 /* Extensions in Resources */ = {isa = PBXBuildFile; fileRef = A07388032105799700B8B338 /* Extensions */; };
+		A07388082105799700B8B338 /* Classes in Resources */ = {isa = PBXBuildFile; fileRef = A07388042105799700B8B338 /* Classes */; };
+		A07388092105799700B8B338 /* Protocols in Resources */ = {isa = PBXBuildFile; fileRef = A07388052105799700B8B338 /* Protocols */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A07387F62105774A00B8B338 /* CocoaX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CocoaX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A07387F92105774A00B8B338 /* CocoaX.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CocoaX.h; sourceTree = "<group>"; };
 		A07387FA2105774A00B8B338 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A07388022105799700B8B338 /* Subclasses */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Subclasses; sourceTree = "<group>"; };
+		A07388032105799700B8B338 /* Extensions */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Extensions; sourceTree = "<group>"; };
+		A07388042105799700B8B338 /* Classes */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Classes; sourceTree = "<group>"; };
+		A07388052105799700B8B338 /* Protocols */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Protocols; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,18 +54,14 @@
 		A07387F82105774A00B8B338 /* CocoaX */ = {
 			isa = PBXGroup;
 			children = (
-				A0738801210578CE00B8B338 /* New Group */,
+				A07388042105799700B8B338 /* Classes */,
+				A07388032105799700B8B338 /* Extensions */,
+				A07388052105799700B8B338 /* Protocols */,
+				A07388022105799700B8B338 /* Subclasses */,
 				A07387F92105774A00B8B338 /* CocoaX.h */,
 				A07387FA2105774A00B8B338 /* Info.plist */,
 			);
 			path = CocoaX;
-			sourceTree = "<group>";
-		};
-		A0738801210578CE00B8B338 /* New Group */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +132,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A07388082105799700B8B338 /* Classes in Resources */,
+				A07388072105799700B8B338 /* Extensions in Resources */,
+				A07388092105799700B8B338 /* Protocols in Resources */,
+				A07388062105799700B8B338 /* Subclasses in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
