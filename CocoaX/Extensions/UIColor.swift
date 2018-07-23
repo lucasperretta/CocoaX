@@ -5,23 +5,23 @@
     /**
      The Color's Red RGB Value
      */
-    var redValue: CGFloat{ return CIColor(color: self).red }
+    public var redValue: CGFloat{ return CIColor(color: self).red }
     /**
      The Color's Green RGB Value
      */
-    var greenValue: CGFloat{ return CIColor(color: self).green }
+    public var greenValue: CGFloat{ return CIColor(color: self).green }
     /**
      The Color's Blue RGB Value
      */
-    var blueValue: CGFloat{ return CIColor(color: self).blue }
+    public var blueValue: CGFloat{ return CIColor(color: self).blue }
     /**
      The Color's Alpha RGBA Value
      */
-    var alphaValue: CGFloat{ return CIColor(color: self).alpha }
+    public var alphaValue: CGFloat{ return CIColor(color: self).alpha }
     /**
      The Color's Hex Value
      */
-    var hexValue: String? {
+    public var hexValue: String? {
         return toHex()
     }
     
@@ -63,21 +63,21 @@
     /**
      Returns a lighter version of the color
      */
-    func lighter(by percentage:CGFloat=30.0) -> UIColor? {
+    public func lighter(by percentage:CGFloat=30.0) -> UIColor? {
         return self.adjust(by: abs(percentage) )
     }
     
     /**
      Returns a darker version of the color
      */
-    func darker(by percentage:CGFloat=30.0) -> UIColor? {
+    public func darker(by percentage:CGFloat=30.0) -> UIColor? {
         return self.adjust(by: -1 * abs(percentage) )
     }
     
     /**
      Returns an adjusted version of the color wich can be lighter or darker
      */
-    func adjust(by percentage:CGFloat=30.0) -> UIColor? {
+    public func adjust(by percentage:CGFloat=30.0) -> UIColor? {
         var r:CGFloat=0, g:CGFloat=0, b:CGFloat=0, a:CGFloat=0;
         if(self.getRed(&r, green: &g, blue: &b, alpha: &a)){
             return UIColor(red: min(r + percentage/100, 1.0),
@@ -135,7 +135,7 @@
     /**
      Returns the corresponding text color having *this* as the background color
      */
-    func getBlackOrWhiteTextColor(tolerance: Float = 140) -> UIColor {
+    public func getBlackOrWhiteTextColor(tolerance: Float = 140) -> UIColor {
         let temp_r = Float(self.redValue * 255) * 0.299
         let temp_g = Float(self.greenValue * 255) * 0.299
         let temp_b = Float(self.blueValue * 255) * 0.299
@@ -150,7 +150,7 @@
     /**
      Compares *this* to another color and returns if they are equal
      */
-    func equals(color: UIColor) -> Bool {
+    public func equals(color: UIColor) -> Bool {
         let r1 = self.redValue
         let r2 = self.redValue
         let g1 = self.greenValue
@@ -168,7 +168,7 @@
     /**
      Compares two colors and returns if they are equal
      */
-    static func areColorsEqual(color1: UIColor, color2: UIColor) -> Bool {
+    public static func areColorsEqual(color1: UIColor, color2: UIColor) -> Bool {
         let r1 = color1.redValue
         let r2 = color1.redValue
         let g1 = color1.greenValue

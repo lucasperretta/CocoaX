@@ -19,7 +19,7 @@ public extension UIImage {
     /**
      Creates a UIImage taking a snapshot of a View
      */
-    static func fromView(_ view: UIView) -> UIImage? { // Toma una captura de la vista y crea una imagen.....
+    public static func fromView(_ view: UIView) -> UIImage? { // Toma una captura de la vista y crea una imagen.....
         UIGraphicsBeginImageContextWithOptions(view.bounds.size, view.isOpaque, 0.0)
         defer { UIGraphicsEndImageContext() }
         if let context = UIGraphicsGetCurrentContext() {
