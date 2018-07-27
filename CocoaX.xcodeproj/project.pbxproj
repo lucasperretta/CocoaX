@@ -15,6 +15,7 @@
 		A0738815210579DC00B8B338 /* UIRoundedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0738812210579DC00B8B338 /* UIRoundedView.swift */; };
 		A0738816210579DC00B8B338 /* UIShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0738813210579DC00B8B338 /* UIShadowView.swift */; };
 		A0738817210579DC00B8B338 /* UIFloatingActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0738814210579DC00B8B338 /* UIFloatingActionButton.swift */; };
+		A0996103210B49B800EBFC41 /* UIStatusAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0996102210B49B800EBFC41 /* UIStatusAlertView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		A0738812210579DC00B8B338 /* UIRoundedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIRoundedView.swift; sourceTree = "<group>"; };
 		A0738813210579DC00B8B338 /* UIShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIShadowView.swift; sourceTree = "<group>"; };
 		A0738814210579DC00B8B338 /* UIFloatingActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIFloatingActionButton.swift; sourceTree = "<group>"; };
+		A0996102210B49B800EBFC41 /* UIStatusAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIStatusAlertView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				A0738814210579DC00B8B338 /* UIFloatingActionButton.swift */,
 				A0738812210579DC00B8B338 /* UIRoundedView.swift */,
 				A0738813210579DC00B8B338 /* UIShadowView.swift */,
+				A0996102210B49B800EBFC41 /* UIStatusAlertView.swift */,
 			);
 			path = Subclasses;
 			sourceTree = "<group>";
@@ -190,6 +193,7 @@
 				A0738817210579DC00B8B338 /* UIFloatingActionButton.swift in Sources */,
 				A0738816210579DC00B8B338 /* UIShadowView.swift in Sources */,
 				A073880D210579D500B8B338 /* UIColor.swift in Sources */,
+				A0996103210B49B800EBFC41 /* UIStatusAlertView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,6 +311,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
