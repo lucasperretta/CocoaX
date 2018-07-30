@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A06331C9210E9F2A00476A06 /* UIKnobSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06331C8210E9F2A00476A06 /* UIKnobSlider.swift */; };
 		A07387FB2105774A00B8B338 /* CocoaX.h in Headers */ = {isa = PBXBuildFile; fileRef = A07387F92105774A00B8B338 /* CocoaX.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A073880D210579D500B8B338 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A073880A210579D400B8B338 /* UIColor.swift */; };
 		A073880E210579D500B8B338 /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A073880B210579D400B8B338 /* UIImageView.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A06331C8210E9F2A00476A06 /* UIKnobSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKnobSlider.swift; sourceTree = SOURCE_ROOT; };
 		A07387F62105774A00B8B338 /* CocoaX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CocoaX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A07387F92105774A00B8B338 /* CocoaX.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CocoaX.h; sourceTree = "<group>"; };
 		A07387FA2105774A00B8B338 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -75,6 +77,7 @@
 		A0738818210579E500B8B338 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				A06331C8210E9F2A00476A06 /* UIKnobSlider.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -192,6 +195,7 @@
 				A073880F210579D500B8B338 /* UIView.swift in Sources */,
 				A0738817210579DC00B8B338 /* UIFloatingActionButton.swift in Sources */,
 				A0738816210579DC00B8B338 /* UIShadowView.swift in Sources */,
+				A06331C9210E9F2A00476A06 /* UIKnobSlider.swift in Sources */,
 				A073880D210579D500B8B338 /* UIColor.swift in Sources */,
 				A0996103210B49B800EBFC41 /* UIStatusAlertView.swift in Sources */,
 			);
