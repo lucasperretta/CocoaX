@@ -68,7 +68,7 @@ class UIKnobController: UIControl {
         layer.addSublayer(renderer.trackLayer)
         layer.addSublayer(renderer.pointerLayer)
         
-        let gestureRecognizer = RotationGestureRecognizer(target: self, action: #selector(Knob.handleGesture(_:)))
+        let gestureRecognizer = RotationGestureRecognizer(target: self, action: #selector(UIKnobController.handleGesture(_:)))
         addGestureRecognizer(gestureRecognizer)
     }
     
