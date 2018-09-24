@@ -127,7 +127,7 @@ public extension UIView {
      */
     public func applyRadiusWithAnimation(duration: CFTimeInterval, radius: CGFloat) {
         let animation = CABasicAnimation(keyPath:"cornerRadius")
-        animation.timingFunction = CAMediaTimingFunction(name: kCAMediaTimingFunctionLinear)
+        animation.timingFunction = CAMediaTimingFunction(name: CAMediaTimingFunctionName.linear)
         animation.fromValue = layer.cornerRadius
         animation.toValue = radius
         animation.duration = duration
